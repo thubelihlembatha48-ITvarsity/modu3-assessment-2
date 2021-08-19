@@ -1,0 +1,154 @@
+
+/*============ HOME PAGE==========*/
+#home-logo-img{
+    height: 500px;
+    text-align: center;
+    display: block;
+    width:80%;
+    padding-left: 110px;
+}
+.body-home{
+    padding: 40px;
+}
+body h1{
+    color: red;
+}
+body p{
+    color: green;
+}
+.body-home a{
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-image: url(images/wood1.jpg);
+}
+.body-home p{
+    color: black;
+    font-size: large;
+    font-style: oblique;
+}
+
+.body-home i {
+    padding-right: 34px;
+}
+.home-menu-iterm{
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    border: 5px solid forestgreen;
+    color:red;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 30px;
+    column-fill: auto;
+}
+
+/*============ HEADER ==========*/
+
+#header{
+    width: 100%;
+    height: 50px;
+    top: 0px;
+    overflow: hidden;
+    position: fixed;
+    text-align: center;
+    padding-top: 30px;
+    
+    
+}
+
+#header i{float: left;
+    padding: 17px 0px 0px 17px;
+    text-align: center;
+    color: red;
+}
+
+#header img{
+    width: 150px;
+    padding-top: 14px;
+    padding-right: 25px;
+}
+
+
+/*============= MEALS ===========*/
+
+
+.meals-list-iterm p {
+color:lavenderblush;
+font-weight: 500px;
+font-style: italic;
+text-decoration: none;
+}
+#meals{
+    padding-top: 50px;
+    text-decoration: none;
+    border: 2px solid black;
+    background-color: green;
+}
+#meals a{
+    text-decoration: none;
+}
+.meals-list-items i{
+    float: right;
+    padding-right: 1099px;
+}
+
+
+#info-box-full input{
+    margin: 10px;
+    width: 90%;
+    height: 80px;
+}
+#info-box-full textarea{
+    width: 90%;
+    height: 110px;
+    margin: 10px;
+}
+
+#info-box-full p{
+    color: green;
+    font-weight: 300px;
+    margin: auto;
+    padding: 4px;
+}
+#info-box-full h2{
+    color: red;
+    font-weight: 500px;
+    font-style: inherit;
+}
+
+#info-box-full a{
+    height: 40px;
+    width: 20%;
+}
+.meals-list-iterm i{
+    float: right;
+    inline-size: auto;
+    padding-right: 1099px;
+
+}
+
+#recipe-details h1{
+    color: red;
+    font-weight: 500px;
+    font-style: inherit;
+}
+
+.recipe-detail-info p{
+    color: green;
+    font-weight: 300px;
+    margin: auto;
+    padding: 4px;
+}
+.recipe-detail-ingridients h2{
+    color: red;
+    font-weight: 400px;
+    margin: auto;
+    padding: 4px;
+}
